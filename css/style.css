@@ -1,0 +1,57 @@
+.box {
+    height: 300px;
+    width: 300px;
+}
+.uno {
+    background-image: url('../img/headphones.PNG');
+    background-position: center;
+    position: relative;
+}
+.due {
+    background-image: url('../img/phone.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: 300px;
+    left: 305px;
+}
+.tre {
+    background-image: url('../img/headphones-2.PNG');
+    background-position: center;
+    position: relative;
+    bottom: 600px;
+    left: 610px;
+}
+.quattro {
+    background-image: url('../img/headphones.PNG');
+    background-position: center;
+    position: relative;
+    bottom: 570px;
+    left: 0;
+}
+.cinque {
+    background-image: url('../img/phone.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: 870px;
+    left: 305px;
+}
+.sei {
+    background-image: url('../img/headphones-2.PNG');
+    background-position: center;
+    position: relative;
+    bottom: 1170px;
+    left: 610px;
+}
+.sconto {
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.secondo, .quinto {
+    background-color: red;
+}
