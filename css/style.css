@@ -1,6 +1,11 @@
+* {
+    box-sizing: border-box;
+}
 .box {
     height: 300px;
     width: 300px;
+    border-style: solid;
+    border-color: black;
 }
 .uno {
     background-image: url('../img/headphones.PNG');
@@ -54,4 +59,15 @@
 }
 .secondo, .quinto {
     background-color: red;
+}
+.cuore {
+    font-size: 40px;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    display: none;
+}
+.box:hover .cuore {
+    cursor: pointer;
+    display: block;
 }
