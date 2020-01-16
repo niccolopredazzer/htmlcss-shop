@@ -66,6 +66,7 @@
     background-color: red;
 }
 .cuore {
+    color: red;
     font-size: 40px;
     position: absolute;
     right: 30px;
