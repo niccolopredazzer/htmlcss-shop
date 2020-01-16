@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+.container{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
 .box {
     height: 300px;
     width: 300px;
